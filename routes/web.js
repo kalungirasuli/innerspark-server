@@ -13,8 +13,7 @@ const routes = (req, res) => {
                 React.createElement(Routes, null,
                     React.createElement(Route, { 
                         path: "/", 
-                        element: React.createElement(Home) 
-                    }),
+                        element: React.createElement(Home)                    }),
                     React.createElement(Route, { 
                         path: "/reset-password/*", 
                         element: React.createElement(ForgotPassword) 
